@@ -42,8 +42,8 @@ path:hover{
 }
 
 /* Styling for the rest of the data */
-@media (max-width: 1024px) { }
-/* Placeholder styles for elements that are not titles */
-.list-item span:not(.title) {
+@media (max-width: 1024px) {.list-item span:not(.title) {
   color: #999; /* Example: Change color for non-title spans */
 }
+}
+/* Placeholder styles for elements that are not titles */
