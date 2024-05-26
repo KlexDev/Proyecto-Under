@@ -1,0 +1,46 @@
+path:hover{
+  fill:#0085CA;
+}
+
+#AR-V:hover path:not(#path24289)
+{
+  fill: #0085CA;;
+}
+
+#AR-Z:hover path
+{
+  fill:#0085CA;
+}
+
+.hidden {
+  display: none;
+}
+
+#list {
+    position: absolute;
+    top: 38.2%;
+    left: 61.8%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Styling for the list item */
+.list-item {
+  margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+/* Styling for the title */
+.title {
+  font-weight: bold; /* Make the title bold */
+  color: #333; /* Adjust title color */
+  font-size: xx-large;
+  /* Add any other styles for the title as needed */
+}
+
+/* Styling for the rest of the data */
+
+/* Placeholder styles for elements that are not titles */
+.list-item span:not(.title) {
+  color: #999; /* Example: Change color for non-title spans */
+}
