@@ -46,5 +46,5 @@ path:hover{
 }
 
 @media (max-width: 1024px) {.list-item span:not(.title) {
-  font-size:10px
+  font-size:16px
 }}
