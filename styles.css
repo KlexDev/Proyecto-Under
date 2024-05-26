@@ -45,6 +45,6 @@ path:hover{
   color: #999; /* Example: Change color for non-title spans */
 }
 
-@media (max-width: 1024px) {.list-item span:not(.title) {
+@media (max-width: 720px) {.list-item span:not(.title) {
   font-size:16px
 }}
