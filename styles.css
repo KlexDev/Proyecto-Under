@@ -24,10 +24,7 @@ path:hover{
     border: 1px solid #ccc;
     padding: 10px;
     overflow:scroll
-    height:100px
-    width:100px
-}
-
+    }
 /* Styling for the list item */
 .list-item {
   margin-bottom: 10px; /* Adjust spacing between list items */
@@ -42,8 +39,12 @@ path:hover{
 }
 
 /* Styling for the rest of the data */
-@media (max-width: 1024px) {.list-item span:not(.title) {
+
+/* Placeholder styles for elements that are not titles */
+.list-item span:not(.title) {
   color: #999; /* Example: Change color for non-title spans */
 }
-}
-/* Placeholder styles for elements that are not titles */
+
+@media (max-width: 1024px) {.list-item span:not(.title) {
+  font-size:10px
+}}
